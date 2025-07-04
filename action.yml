@@ -1,0 +1,11 @@
+name: 'My Python Hello Action'
+description: 'Says hello from a Python script'
+inputs:
+  name:
+    description: 'The name to greet'
+    required: false
+    default: 'Jiyadh'
+
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
